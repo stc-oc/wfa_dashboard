@@ -75,3 +75,47 @@ console.log(selected);
     <br/>
     <span>Note: ${note}</span>
 </div>
+
+```js
+let table = document.getElementById("zoneTable");
+
+for (let row of zones) {
+    let tr = table.insertRow();
+    let td = tr.insertCell();
+      td.innerHTML = row.Field;
+      td = tr.insertCell();
+      td.innerHTML = row.Group;  
+      td = tr.insertCell();
+      td.innerHTML = row.Level;  
+      td = tr.insertCell();
+      td.innerHTML = row.Division;  
+      td = tr.insertCell();
+      td.innerHTML = row["Job Family"];  
+      td = tr.insertCell();
+      td.innerHTML = row["Job Type"];  
+      td = tr.insertCell();
+      td.innerHTML = row["Number of employees"];  
+      td = tr.insertCell();
+      td.innerHTML = row["Reductions required"];  
+      td = tr.insertCell();
+      td.innerHTML = row.percent;  
+}
+```
+---
+
+# Overall Table
+
+<!-- GENERATE HTML TABLE HERE -->
+<table id="zoneTable">
+    <tr>
+        <th>Field</th>
+        <th>Group</th>
+        <th>Level</th>
+        <th>Division</th>
+        <th>Job Family</th>
+        <th>Job Type</th>
+        <th>Affected Employees</th>
+        <th>Reductions Required</th>
+        <th>Percentage</th>
+    </tr>
+</table>

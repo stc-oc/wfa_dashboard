@@ -1,53 +1,53 @@
 Field,Group,Level,Division,Job Family,Job Type,Number of employees,Reductions required,percent,note
-5,EC,4,,,Analysis,101,15,15%,
-5,EC,5,"EASD","900211",Analysis,132,15,11%,This is probably the same group as below. Looks like they grouped analysts with economists in F5. I belive this is branch-wide
-5,EC,5,"EASD","900215",Analysis,132,15,11%,This is probably the same group as below. Looks like they grouped analysts with economists in F5. I belive this is branch-wide
-5,EC,5,"CSBP","900211",Analysis,132,15,11%,This is probably the same group as below. Looks like they grouped analysts with economists in F5. I belive this is branch-wide
-5,EC,5,"CSBP","900215",Analysis,132,15,11%,This is probably the same group as below. Looks like they grouped analysts with economists in F5. I belive this is branch-wide
-5,EC,4,"PSSD",900210,Analysis,22,5,23%,
-5,EC,4,"NEAD",900210,Analysis,22,5,23%,
-8,EC,4,CLMI,900210,Analysis,not affected,,,"Not the whole field, not sure how much is in this unaffected zone"
-5,EC,4,"EASD",900210,Analysis,101,9,9%,
-5,EC,4,"CITES",900210,Analysis,101,9,9%,
-5,EC,4,"AGRI",900210,Analysis,101,9,9%,
-5,EC,7,CSBP,900217,"Chief",34,9,26%,
-8,EC,7,,900217,Chief,47,9,19%,i think these zones may apply to all EC in f8
-6,EC,5,CSSG,900215,Classification Specialist,20,7,35%,Likely other positions included than just under Job Name. 
 5,EC,2,CSBP,900218,Production,33,7,21%,two separate reports of these numbers -- possibly apply across the field?
 5,EC,2,IATD,900218,Production,not affected,,,
 5,EC,3,,900219,Production,19,4,21%,two separate reports of these numbers -- possibly apply across the field?
+5,EC,4,,,Analysis,101,15,15%,
+5,EC,4,"AGRI",900210,Analysis,101,9,9%,
+5,EC,4,"CITES",900210,Analysis,101,9,9%,
+5,EC,4,"EASD",900210,Analysis,101,9,9%,
+5,EC,4,"IAD","900220",,not affected,,,
+5,EC,4,"NEAD",900210,Analysis,22,5,23%,
+5,EC,4,"PSSD",900210,Analysis,22,5,23%,
 5,EC,4,CITES,900220,Production,56,13,23%,
-8,EC,3,,900219,Production,28,9,32%,i think these zones may apply to all EC in f8
-8,EC,5,,,Production,10,5,50%,
-5,EC,5,IAD,900215,Analysis,67,6,9%,
-8,EC,4,"CSDDI",900210,Analysis,150,23,15%,Excludes at least CLMI from F8
-8,EC,4,"CPSS",900210,Analysis,150,23,15%,Excludes at least CLMI from F8
-8,EC,5,"CSDDI",900215,Analysis,117,25,21%,i think these zones may apply to all EC in f8
-8,EC,5,"CPSS",900215,Analysis,117,25,21%,i think these zones may apply to all EC in f8
-8,EC,5,"CCJCSS",900215,Analysis,117,25,21%,i think these zones may apply to all EC in f8
+5,EC,4,IAD,900210,,not affected,,,
 5,EC,4,PSSD,900220,Production,24,5,21%,
-8,EC,2,CLMI,900218,Production,40,15,38%,across F8
-8,EC,2,CHIS,900218,Production,40,15,38%,across F8
-7,EC,1,CSDP,900200,Recruit,24,7,29%,"Likely excludes all F8, may be rest of org?"
-7,EC,1,OID,900200,Recruit,24,7,29%,"Likely excludes all F8, may be rest of org?"
-6,EC,5,ESAMD,900211,Analysis,15,3,20%,
-5,EC,6,EASD,900211,Senior research analyst,9,4,44%,division only
+5,EC,5,"CSBP","900211",Analysis,132,15,11%,This is probably the same group as below. Looks like they grouped analysts with economists in F5. I belive this is branch-wide
+5,EC,5,"CSBP","900215",Analysis,132,15,11%,This is probably the same group as below. Looks like they grouped analysts with economists in F5. I belive this is branch-wide
+5,EC,5,"EASD","900211",Analysis,132,15,11%,This is probably the same group as below. Looks like they grouped analysts with economists in F5. I belive this is branch-wide
+5,EC,5,"EASD","900215",Analysis,132,15,11%,This is probably the same group as below. Looks like they grouped analysts with economists in F5. I belive this is branch-wide
+5,EC,5,IAD,900215,Analysis,67,6,9%,
+5,EC,5,NEAD,unknown ,,4,2,50%,
 5,EC,6,"AGRI",900216,Unit Head / Analysis,50,7,14%,Looks like all unit heads of the same branch are grouped together 
 5,EC,6,"CSBP",900216,Unit Head / Analysis,50,7,14%,Looks like all unit heads of the same branch are grouped together 
-8,EC,6,CSDDI,900216,"Unit Head, Subject Matter",88,19,22%,i think these zones may apply to all EC in f8
-8,EC,6,CLMI,900216,"Unit Head, Subject Matter",88,19,22%,i think these zones may apply to all EC in f8
-8,EC,6,"CSMS",900222,"Unit head,Census Questionnaire Development ",9,5,56%,
-5,EC,4,IAD,900210,,not affected,,,
-5,EC,4,"IAD","900220",,not affected,,,
-5,EC,5,NEAD,unknown ,,4,2,50%,
 5,EC,6,"IAD",500007,,43,7,16%,
+5,EC,6,EASD,900211,Senior research analyst,9,4,44%,division only
 5,EC,6,PSSD,?,,4,1,25%,
+5,EC,7,CSBP,900217,"Chief",34,9,26%,
 5,EC,7,IAD,900217,,12,2,17%,
 5,EC,8,,,,86,13,15%,approx. excludes ADs
-6,EC,6,CSSG?,?,,7,4,57%,
+6,EC,5,CSSG,900215,Classification Specialist,20,7,35%,Likely other positions included than just under Job Name. 
+6,EC,5,ESAMD,900211,Analysis,15,3,20%,
 6,EC,6,CSSG,629138?,,Not affected,,,Mal to confirm
+6,EC,6,CSSG?,?,,7,4,57%,
 6,MA,4,CSSG?,?,,66,13,20%,
+7,EC,1,CSDP,900200,Recruit,24,7,29%,"Likely excludes all F8, may be rest of org?"
+7,EC,1,OID,900200,Recruit,24,7,29%,"Likely excludes all F8, may be rest of org?"
 7,GT,2,,,,10,1,10%,
-8,EC,1,CLMI,,,not affected,,,
 8,EC,1,CHIS,,,not affected,,,
+8,EC,1,CLMI,,,not affected,,,
+8,EC,2,CHIS,900218,Production,40,15,38%,across F8
+8,EC,2,CLMI,900218,Production,40,15,38%,across F8
+8,EC,3,,900219,Production,28,9,32%,i think these zones may apply to all EC in f8
 8,EC,4,,900220,,45,11,24%,multiple reports -- probably across all F8
+8,EC,4,"CPSS",900210,Analysis,150,23,15%,Excludes at least CLMI from F8
+8,EC,4,"CSDDI",900210,Analysis,150,23,15%,Excludes at least CLMI from F8
+8,EC,4,CLMI,900210,Analysis,not affected,,,"Not the whole field, not sure how much is in this unaffected zone"
+8,EC,5,,,Production,10,5,50%,
+8,EC,5,"CCJCSS",900215,Analysis,117,25,21%,i think these zones may apply to all EC in f8
+8,EC,5,"CPSS",900215,Analysis,117,25,21%,i think these zones may apply to all EC in f8
+8,EC,5,"CSDDI",900215,Analysis,117,25,21%,i think these zones may apply to all EC in f8
+8,EC,6,"CSMS",900222,"Unit head,Census Questionnaire Development ",9,5,56%,
+8,EC,6,CLMI,900216,"Unit Head, Subject Matter",88,19,22%,i think these zones may apply to all EC in f8
+8,EC,6,CSDDI,900216,"Unit Head, Subject Matter",88,19,22%,i think these zones may apply to all EC in f8
+8,EC,7,,900217,Chief,47,9,19%,i think these zones may apply to all EC in f8

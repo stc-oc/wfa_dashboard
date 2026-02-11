@@ -1,5 +1,6 @@
 ---
 toc: false
+#theme: midnight
 ---
 
 <div class="hero">
@@ -68,3 +69,4 @@ Here are some things you could try…
 }
 
 </style>
+

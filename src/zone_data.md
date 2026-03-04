@@ -1,5 +1,5 @@
 ---
-#theme: midnight
+theme: midnight
 title: Which Zone am I in?
 toc: false
 ---

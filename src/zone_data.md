@@ -59,20 +59,47 @@ const selected = zones.filter(d => d.Field == field &
 
 const affected = selected.length > 0 ? selected[0]["Number of employees"] : "undefined";
 const required = selected.length > 0 ? selected[0]["Reductions required"] : "undefined";
-const percent = selected.length > 0 ? selected[0]["percent"] : "undefined";
 const note = selected.length > 0 ? selected[0]["note"] : "undefined";
+const affected_post = selected.length > 0 ? selected[0]["Post VDP affected"] : "undefined";
+const required_post = selected.length > 0 ? selected[0]["Post VDP reductions"] : "undefined";
+
+const percentageFormatter = new Intl.NumberFormat('default', {
+  style: 'percent',
+  minimumFractionDigits: 1,
+  maximumFractionDigits: 1,
+});
+
+
+if(required_post == 0) {
+    document.getElementById('myTable').style.backgroundColor = "green";
+  } else {
+    document.getElementById('myTable').style.backgroundColor = "goldenrod";
+  }
+
 
 console.log(selected);
 ```
 
 <div class="card">
     <h2>Field <b>${field}</b> Group <b>${group}</b> Level <b>${level}</b> Division <b>${division}</b> Job Family <b>${family}</b></h2>
-    <span class="big">Affected: ${affected}</span>
-    <br/>
-    <span class="big">Positions cut: ${required}</span>
-    <br/>
-    <span class="big">Percentage: ${percent}</span>
-    <br/>
+    <table id="myTable">
+      <tr>
+        <td><span class="big">Pre-VDP</span></td>
+        <td><span class="big">Post-VDP</span></td>
+      </tr>
+      <tr>
+        <td><span class="big">Affected: ${affected}</span></td>
+        <td><span class="big">Affected: ${affected_post}</span></td>
+      </tr>
+      <tr>
+        <td><span class="big">Positions cut: ${required}</span></td>
+        <td><span class="big">Positions cut: ${required_post}</span></td>
+      </tr>
+      <tr>
+        <td><span class="big">Percentage: ${percentageFormatter.format(required/affected)}</span></td>
+        <td><span class="big">Percentage: ${percentageFormatter.format(required_post/affected_post)}</span></td>
+      </tr>
+    </table>
     <span>Note: ${note}</span>
 </div>
 

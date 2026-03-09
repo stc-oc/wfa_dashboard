@@ -16,7 +16,7 @@ Field,Group,Level,Division,Job Family,Job Type,Number of employees,Reductions re
 5,EC,5,"CSBP","900215",Analysis,132,15,11%,This is probably the same group as below. Looks like they grouped analysts with economists in F5. I belive this is branch-wide,124,7
 5,EC,5,"EASD","900211",Analysis,132,15,11%,This is probably the same group as below. Looks like they grouped analysts with economists in F5. I belive this is branch-wide,124,7
 5,EC,5,"EASD","900215",Analysis,132,15,11%,This is probably the same group as below. Looks like they grouped analysts with economists in F5. I belive this is branch-wide,124,7
-5,EC,5,IAD,900215,Analysis,67,6,9%,61,0,
+5,EC,5,IAD,900215,Analysis,67,6,9%,,61,0,
 5,EC,5,NEAD,unknown ,,4,2,50%,,,
 5,EC,6,"AGRI",900216,Unit Head / Analysis,50,7,14%,Looks like all unit heads of the same branch are grouped together,, 
 5,EC,6,"CSBP",900216,Unit Head / Analysis,50,7,14%,Looks like all unit heads of the same branch are grouped together,,
@@ -26,20 +26,20 @@ Field,Group,Level,Division,Job Family,Job Type,Number of employees,Reductions re
 5,EC,7,CSBP,900217,"Chief",34,9,26%,,,
 5,EC,7,IAD,900217,,12,2,17%,,,
 5,EC,8,,,,86,13,15%,approx. excludes ADs,,
-6,EC,5,CSSG,900215,Classification Specialist,20,7,35%,Likely other positions included than just under Job Name.,, 
+6,EC,5,CSSG,900215,Classification Specialist,20,7,35%,Likely other positions included than just under Job Name.,17,4 
 6,EC,5,ESAMD,900211,Analysis,15,3,20%,,,
 6,EC,6,CSSG,629138?,,Not affected,,,Mal to confirm,,
 6,EC,6,CSSG?,?,,7,4,57%,,,
 6,MA,4,CSSG?,?,,66,13,20%,,,
 7,EC,1,CSDP,900200,Recruit,24,7,29%,"Likely excludes all F8, may be rest of org?",,
 7,EC,1,OID,900200,Recruit,24,7,29%,"Likely excludes all F8, may be rest of org?",,
-7,GT,2,,,,10,1,10%,,,
+7,GT,2,,,,10,1,10%,10,1,
 8,EC,1,CHIS,,,not affected,,,,,
 8,EC,1,CLMI,,,not affected,,,,,
 8,EC,2,CHIS,900218,Production,40,15,38%,across F8,,
 8,EC,2,CLMI,900218,Production,40,15,38%,across F8,,
-8,EC,3,,900219,Production,28,9,32%,i think these zones may apply to all EC in f8,,
-8,EC,4,,900220,,45,11,24%,multiple reports -- probably across all F8,,
+8,EC,3,,900219,Production,28,9,32%,i think these zones may apply to all EC in f8,21,2
+8,EC,4,,900220,,45,11,24%,multiple reports -- probably across all F8,42,8
 8,EC,4,"CPSS",900210,Analysis,150,23,15%,Excludes at least CLMI from F8,140,13
 8,EC,4,"CSDDI",900210,Analysis,150,23,15%,Excludes at least CLMI from F8,140,13
 8,EC,4,CLMI,900210,Analysis,not affected,,,"Not the whole field, not sure how much is in this unaffected zone",,

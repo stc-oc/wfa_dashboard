@@ -125,7 +125,12 @@ for (let row of zones) {
       td = tr.insertCell();
       td.innerHTML = row["Reductions required"];  
       td = tr.insertCell();
-      td.innerHTML = row.percent;  
+      td.innerHTML = row["Post VDP affected"];  
+      td = tr.insertCell();
+      td.innerHTML = row["Post VDP reductions"];  
+      //td = tr.insertCell();
+      //td.innerHTML = row.percent;  
+
 }
 ```
 ---
@@ -145,7 +150,8 @@ Click on the table headers to sort.
         <th onclick="sortTable(5)">Job Type</th>
         <th onclick="sortTable(6)">Affected Employees</th>
         <th onclick="sortTable(7)">Reductions Required</th>
-        <th onclick="sortTable(8)">Percentage</th>
+        <th onclick="sortTable(8)">Post-VDP Affected</th>
+        <th onclick="sortTable(9)">Post-VDP Reductions</th>
     </tr>
 </table>
 

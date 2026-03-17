@@ -3,9 +3,9 @@ Field,Group,Level,Division,Job Family,Job Type,Number of employees,Reductions re
 5,EC,2,IATD,900218,Production,not affected,,,,,
 5,EC,3,,900219,Production,19,4,21%,two separate reports of these numbers -- possibly apply across the field?,,
 5,EC,4,,,Analysis,101,15,15%,,,
-5,EC,4,"AGRI",900210,Analysis,101,9,9%,,,
-5,EC,4,"CITES",900210,Analysis,101,9,9%,,,
-5,EC,4,"EASD",900210,Analysis,101,9,9%,,,
+5,EC,4,"AGRI",900210,Analysis,101,9,9%,,94,2
+5,EC,4,"CITES",900210,Analysis,101,9,9%,,94,2
+5,EC,4,"EASD",900210,Analysis,101,9,9%,,94,2
 5,EC,4,"IAD","900220",,not affected,,,,,
 5,EC,4,"NEAD",900210,Analysis,22,5,23%,,21,4
 5,EC,4,"PSSD",900210,Analysis,22,5,23%,,21,4
@@ -32,8 +32,8 @@ Field,Group,Level,Division,Job Family,Job Type,Number of employees,Reductions re
 6,EC,6,CSSG,629138?,,Not affected,,,to confirm,,
 6,EC,6,CSSG?,?,,7,4,57%,,,
 6,MA,4,CSSG?,?,,66,13,20%,,,
-7,EC,1,CSDP,900200,Recruit,24,7,29%,"Likely excludes all F8, may be rest of org?",,
-7,EC,1,OID,900200,Recruit,24,7,29%,"Likely excludes all F8, may be rest of org?",,
+7,EC,1,CSDP,900200,Recruit,24,7,29%,"Likely excludes all F8, may be rest of org?",22,5
+7,EC,1,OID,900200,Recruit,24,7,29%,"Likely excludes all F8, may be rest of org?",22,5
 7,GT,2,,,,10,1,10%,,10,1
 8,EC,1,CHIS,,,not affected,,,,,
 8,EC,1,CLMI,,,not affected,,,,,
